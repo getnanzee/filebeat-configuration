@@ -32,11 +32,11 @@ To configure filebeat, you need to edit the filebeat configuration which is loca
  vi filebeat.yml
    
  The important sections in the filebeat.yml file are listed below:
-    a) filebeat.inputs
-    b) setup.template
-    c) setup.kibana
-    d) output.elasticsearch
-    e) processors
+    - filebeat.inputs
+    - setup.template
+    - setup.kibana
+    - output.elasticsearch
+    - processors
       
 3) Refer to the sample config file attach in the repository
   
