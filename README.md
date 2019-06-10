@@ -12,17 +12,17 @@ Switch to root privileges
 
 Install filebeat module on source machine:
   
-rpm:
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-x86_64.rpm
-sudo rpm -vi filebeat-7.1.1-x86_64.rpm
+    rpm:
+    curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-x86_64.rpm
+    sudo rpm -vi filebeat-7.1.1-x86_64.rpm
 
-deb:
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-amd64.deb
-sudo dpkg -i filebeat-7.1.1-amd64.deb
+    deb:
+    curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-amd64.deb
+    sudo dpkg -i filebeat-7.1.1-amd64.deb
 
-linux:
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-linux-x86_64.tar.gz
-tar xzvf filebeat-7.1.1-linux-x86_64.tar.gz
+    linux:
+    curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-linux-x86_64.tar.gz
+    tar xzvf filebeat-7.1.1-linux-x86_64.tar.gz
   
 ###### Step 2: Filebeat configuration:
  
