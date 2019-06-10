@@ -10,11 +10,11 @@ Switch to root privileges
 
 1) Filebeat Installation:
 
-> Install filebeat module on source machine:
+Install filebeat module on source machine:
   
-> rpm:
-> curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-x86_64.rpm
-> sudo rpm -vi filebeat-7.1.1-x86_64.rpm
+rpm:
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-x86_64.rpm
+sudo rpm -vi filebeat-7.1.1-x86_64.rpm
 
 deb:
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.1.1-amd64.deb
@@ -32,11 +32,11 @@ To configure filebeat, you need to edit the filebeat configuration which is loca
  vi filebeat.yml
    
  The important sections in the filebeat.yml file are listed below:
-    - filebeat.inputs
-    - setup.template
-    - setup.kibana
-    - output.elasticsearch
-    - processors
+ - filebeat.inputs
+ - setup.template
+ - setup.kibana
+ - output.elasticsearch
+ - processors
       
 3) Refer to the sample config file attach in the repository
   
