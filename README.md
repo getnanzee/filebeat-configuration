@@ -36,7 +36,7 @@ To configure filebeat, you need to edit the filebeat configuration which is loca
  - output.elasticsearch
  - processors
       
-###### Step 3: Refer to the sample config file attach in the repository
+###### Step 3: Refer to the filebeat-sample.yml file attach in the repository
   
   
 ###### Step 4: Once the configurations have been saved as per the sample configuration, start the filebeat service
