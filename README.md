@@ -28,8 +28,8 @@ Install filebeat module on source machine:
  
 To configure filebeat, you need to edit the filebeat configuration which is located in /etc/filebeat:
  
- cd /etc/filebeat
- vi filebeat.yml
+    cd /etc/filebeat
+    vi filebeat.yml
    
  The important sections in the filebeat.yml file are listed below:
  - filebeat.inputs
