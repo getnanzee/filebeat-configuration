@@ -8,7 +8,7 @@ Switch to root privileges
 
   sudo su
 
-1) Filebeat Installation:
+Step 1: Filebeat Installation:
 
 Install filebeat module on source machine:
   
