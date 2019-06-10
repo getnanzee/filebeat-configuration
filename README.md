@@ -1,12 +1,10 @@
 # ELK
 
-Filebeat configuration to enable application logging on elasticsearch..
+## Filebeat configuration to enable application logging on elasticsearch..
 
-Steps:
+###### Switch to root privileges
 
-Switch to root privileges
-
-  sudo su
+    sudo su
 
 ###### Step 1: Filebeat Installation:
 
